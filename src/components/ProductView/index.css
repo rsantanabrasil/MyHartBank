@@ -1,0 +1,89 @@
+.__containerProductView{
+    display: flex;
+}
+
+.teste-div{
+    width:100%;
+}
+
+.text-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.__modalProductView {
+    position: fixed;
+    top: 0;
+    left: 221px;
+    right: 0;
+    bottom: 0;
+    width: 85.5%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+   
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.__descriptProductView h1{
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    white-space: normal;
+    width: 20rem;
+    padding: 1rem;
+}
+
+.__productView {
+ 
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.__productViewCardImg img{
+    max-width: 317px;
+    max-height: 279px;
+}
+
+.__titleCardImg{
+    display: flex;
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 16rem;
+}
+
+.__description{
+   
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.__closedProductView{
+    display: flex;
+    justify-content: flex-end;  
+    position: relative; 
+    bottom: 8rem; 
+    right: 10rem;
+}
+
+._buttonProductView{
+    width: 18rem;
+    height: 3rem;
+    background: linear-gradient(90deg, #2CC6FE 1.55%, #473898 48.43%, #F7529D 101.55%);
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.__buttonProductView p{
+   color: white;
+   font-size: 1rem;
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+}

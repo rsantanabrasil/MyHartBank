@@ -1,0 +1,651 @@
+.__container{
+    display: flex; 
+    width: 100%;
+    
+}
+
+.__menu{
+    background-color: red;
+ 
+    width: 20%;
+}
+
+.__card{
+    padding: 1rem;
+   
+    width: 100%;
+}
+
+.__cardCommunity{
+    margin-bottom: 2rem;
+    padding:1rem;
+    display: flex;
+    height: 47.6%;
+    border-radius: 28px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    
+}
+
+.__linkIndication{
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.__myCommunity{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 28px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.__cardRewards{
+    display: flex;
+    height: 41%;
+}
+.__cardLimit{
+
+}
+
+.__cardHistoric{
+    padding: 1rem;
+    
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+}
+
+.__divisionLimit{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+._cardmyhart{
+    display: flex;
+}
+
+.__limitBar{
+    padding-top: 1.5rem;
+}
+
+.__cardMyhart h1{
+   font-family: "Poppins", sans-serif;
+   font-weight: 600; 
+   font-size: 1rem;
+   color: #404040;
+   padding-left: 1rem;
+   margin: 0px;
+}
+
+.leftArrow{
+  margin-right: 15px;
+}
+
+.rightArrow{
+  margin-left: 15px;
+}
+
+.__divisionBar{
+    padding-left: 28px;
+}
+
+.__limitValue{
+  display: flex;
+}
+
+.__limitValue h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: .9rem;
+   color: #AEAEAE;
+}
+
+.__limitValue h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    color: #404040;
+    padding-left: 6.2rem;
+ }
+
+.__currentBalance h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #197BBD;
+    margin: 0px;
+}
+
+.__currentBalance h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #197BBD;
+    margin: 0px;
+}
+
+.__income h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #439A86;
+    font-style: normal;
+}
+
+.__income h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #AEAEAE;
+    margin: 0px;
+}
+
+.__cashBack h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #439A86;
+}
+
+.__cashBack h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #AEAEAE;
+    margin: 0px;
+}
+
+.__currentBalance{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 32px;
+}
+
+.__income{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.__cashBack{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.__currentBalance h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #AEAEAE;
+    margin: 0px;
+}
+
+.__buttonRequest button{
+    width: 12.4rem;
+    height: 3.2rem;
+    background-color: #A75DA3;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(92, 92, 92, 0.5);
+}
+
+.__buttonRequest{
+    padding-top: 2rem;
+}
+
+.__buttonRequest h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.__historicRewards h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #404040;
+    padding-left: 2rem;
+    margin: 0px;
+}
+
+.__titleRewards{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #AEAEAE;
+   
+}
+
+.__originRewards{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #404040; 
+    word-break: break-all;
+}
+.__originRewards h1{
+  
+}
+
+.__typeRewards{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #C7C7C7;
+    padding-right: 4rem;
+    word-break: break-all;
+}
+
+tr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.__dateRewards{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #C7C7C7;
+    padding-right: 4rem;
+    
+}
+
+.__tableRewards{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.__tableRewardsTitle{
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+.__valueRewards{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    color: #404040;
+}
+
+.__summaryTitle{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 1.2rem;
+   color: #404040;
+   
+}
+
+.__incomeAmounts{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #404040;
+}
+
+.__cardIndications{
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+    width: 11rem;
+}
+
+.__valueIndications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.__valueIndications h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+
+._totalIndications{
+   padding-top: 3.2rem;
+}
+
+.__cardSummary{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+
+.__valueIndications h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #696969;
+}
+
+.__valueIndications h3{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: .8rem;
+   color: hsl(166, 39%, 43%);
+   margin:1rem;
+}
+
+.__valueIndications h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: .8rem;
+    color: #979797;
+    margin:1rem;
+ }
+
+.__myCommunity h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #404040;
+}
+
+.__inputIndications{
+    width: 23rem;
+    height: 50px;
+    background-color: #F1F3F6;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.__buttonIndications{
+    background-color: #A75DA3;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(92, 92, 92, 0.5);
+    width: 101px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.__favorites{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 6rem;
+}
+
+.__favorites a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #555555;
+}
+
+.__peopleName{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #404040;
+    display: flex;
+    justify-content: center;
+}
+
+.__rewards{
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.__incomeAmounts{
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 1rem;
+   
+}
+
+.__incomeAmounts img{
+    max-width: 223px;
+   
+}
+
+._titleRewards{
+    display: flex;
+}
+
+._titleRewards h1{
+    font-family: 'Poppins', sans-serif;
+    color: #202020;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+}
+
+.__incomeAmounts h1{
+    font-family: 'Poppins', sans-serif;
+    color: #202020;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+}
+
+.__rewardTitle{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 1.2rem;
+   color: #404040;
+   justify-content: space-between;
+   display: flex;
+}
+
+.__rewards img {
+
+    max-width: 284px;
+}
+
+
+.__rewards h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #696969;
+    margin-bottom: 0px;
+}
+
+.__rewards h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #898989;
+}
+
+.__valueLimit{
+    display: flex;
+    flex-direction: column;
+} 
+
+td{
+  padding: 1rem;
+  word-break: break-all;
+}
+
+td img{
+    position: relative;
+    bottom: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.__divisionOptions{
+    background-color: #3D3D3D;  
+    height: 100%;
+   /* width: 15%;*/
+}
+.__options{
+    padding-bottom: 2rem;
+}
+.__nameUser{
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color:white;
+}
+.__option{
+    display: flex;
+}
+
+
+.__option{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.__optionTitle{
+    padding-left: 1rem;
+}
+.__optionTitle{
+    color: #E2E8F0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .__card{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+   .__cardCommunity{
+    flex-direction: column;
+    height: 100%;
+   }
+   ._cardmyhart {
+    display: flex;
+    justify-content: center;
+   
+   }
+   ._cardmyhart img{
+    max-width: 260px;
+   }
+   .__valueLimit {
+    flex-direction: column;
+   }
+   .__currentBalance{
+    padding-top: 0px;
+   }
+   .__buttonRequest{
+    display:flex;
+    justify-content: center;
+   }
+   .td {
+    white-space: none;
+   }
+   .__tableRewardsTitle{
+    padding-left:0px;
+    padding-right:0px;
+   }
+   .__favorites {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 0rem; 
+    flex-wrap: wrap;
+} 
+   .__cardRewards {
+    flex-direction: column;
+   }
+   .__currentBalance {
+    align-items: center;
+    justify-content: center;
+    }
+   .__income{
+    align-items: center;
+    justify-content: center;
+   }
+   .__cashBack{
+    align-items: center;
+    justify-content: center;
+   }
+   .__buttonRequest{
+    align-items: center;
+    justify-content: center;
+   }
+   .cardMyHart{
+    transform: scale(.7);
+   }
+   ._cardmyhart img {
+    max-width: none;
+   }
+ 
+   .__typeRewards{
+   
+    padding-right: 0px!important;
+   }
+   .__dateRewards{
+    
+    padding-right: 0px!important;
+   }
+   .__historyRewards h1 {
+    font-size: 1.2rem;
+   }
+   .__cardSummary{
+    flex-wrap: wrap;
+   }
+   .leftArrow {
+    left: 3rem;
+    position: relative;
+    margin-right: 0rem;
+    }
+    .rightArrow {
+    position: relative;
+    margin-left: 0rem;
+    right: 3rem;
+    }
+    .__divisionBar{
+    display: none;
+    }
+    .__limitBar img{
+    max-width: 330px;
+    }
+    .__limitBar {
+    padding-top: 0rem;
+    }
+    .__limitValue{
+        justify-content: space-between;
+    }
+    .__limitValue h2{
+        padding-left:0rem;
+    }
+}

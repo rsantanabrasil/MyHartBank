@@ -1,0 +1,431 @@
+
+.__container{
+   width: 100%;
+   height: 946px;
+   display:flex;
+}
+.__myBalance{
+    display: flex;
+    width: 100%;
+}
+
+._myBalance{
+    width: 40%;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.__communityStart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.__communityStart h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: #AEAEAE;
+    font-weight: 500;
+}
+
+.__currentBalanceFinancial h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: #AEAEAE;
+    font-weight: 500;
+}
+
+.__currentBalanceFinancial h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: #197BBD;
+}
+
+.__communityIncome h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: #AEAEAE;
+    font-weight: 500;
+}
+
+.__communityIncome h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #439A86;
+}
+.__cashBackFinancial h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: #AEAEAE;
+    font-weight: 500;
+}
+
+
+.__cashBackFinancial h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #439A86;
+}
+
+.__currentBalanceFinancial{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+}
+
+.buttonFinancial{
+    justify-content: space-around;
+}
+
+.__buttonFinancial{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-around;
+}
+
+.__buttonFinancial button{
+        width: 11.4rem;
+        height: 3.2rem;
+        background-color: #A75DA3;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0px 4px 12px rgba(92, 92, 92, 0.5);
+}
+
+.__buttonFinancial h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+    font-size: .8rem;
+    color: #FFFFFF;
+}
+
+.__communityIncome{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.__cashBackFinancial{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.__financialMovements{
+    margin: 1.5rem;
+    padding: 1rem;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+}
+
+.__myIncome{
+    padding: 1rem;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.__myIncome img{
+    padding-top: 3rem;
+}
+
+.__titleMyIncome {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; 
+    font-size: 1rem;
+    color: #404040;
+    padding-left: 1rem;
+    margin: 0px;
+}
+
+.__titleMyBalance{
+font-family: "Poppins", sans-serif;
+font-weight: 600; 
+font-size: 1.2rem;
+color: #404040;
+padding-left: 1rem;
+margin: 0px;    
+}
+
+.__yieldExpectation{
+    padding-left:11rem;
+}
+
+.__investedExprectation{
+   display: flex;
+   margin: 1rem;
+   margin-top: 3rem;
+}
+
+.__titleFinancial h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #404040;
+    padding-left: 2rem;
+    margin: 0px;
+    padding-bottom: 1rem;
+}
+
+.__cardTitleFinancial{
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+.__titleMyIncome h1{
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 1.2rem;
+color: #404040;
+margin: 0px; 
+}
+
+.__totalInvested h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5A607F;
+    margin: 0px;
+}
+.__tableFinancialTitle{
+display: flex;
+padding-left: 4rem;
+padding-right: 2rem;
+justify-content: space-between;  
+}
+
+td{
+    display: flex;
+}
+
+._test{
+    display: flex;
+}
+
+.__originFinancial{
+    padding: 1rem;
+}
+
+.__typeFinancial {
+    padding: 1rem;
+}
+
+.__dateFinancial {
+    padding: 1rem;
+}
+
+.__valueFinancial {
+    padding: 1rem;
+}
+
+._imgTest{
+    padding: 0.7rem;
+    padding-top: 0.8rem;
+}
+
+
+._titleFinancial{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #AEAEAE;
+    white-space: nowrap;   
+}
+
+.__tableFinancial{
+display: flex;
+justify-content: space-around;    
+}
+
+.__imgFinancial img{
+    padding: 1rem;
+}
+
+.balanceFinancial{
+    display: flex; 
+   
+}
+
+.balanceFinancial img{
+  padding-left:.5rem;
+}
+
+.balanceFinancial h2{
+    margin: 0px;
+}
+
+.__originFinancial{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #404040;
+   
+}
+
+.__typeFinancial{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #C7C7C7;
+    padding-right: 4rem;
+   
+}
+
+.__dateFinancial{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #C7C7C7;
+    padding-right: 4rem;
+    
+}
+
+/*.__valueFinancial{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #404040;
+} */
+
+.__valueFinancial{
+ font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: .8rem;
+color: #404040;
+}
+
+
+.__valueInvested{
+    display: flex;
+    align-items: center;
+    
+}
+
+.__valueInvested h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #131523;
+    margin: 0px;
+}
+
+
+.__valueInvested h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3DD598;
+    padding-left: 1rem;
+}
+
+.__valueInvested h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3DD598;
+    padding-left: 1rem;
+}
+
+.__totalInvested h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #7E84A3;
+    margin: 0px;
+}
+
+.__titleValueInvested h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #7E84A3;
+    margin: 4px;
+}
+
+.__titleValueInvested h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #0058FF;
+    margin: 4px;
+}
+
+._yieldExpectation{
+    display: flex;
+}
+
+._yieldExpectation h1{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 1rem;
+color: #5A607F;
+margin: 0px;
+}
+
+.__titleValueInvested{
+    display: flex;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    ._imgTest {
+        position: relative;
+        padding: 0rem;
+        padding-top: 4.800000000000001rem;
+        bottom: 2.8rem;
+    }
+
+.__myBalance{
+    flex-direction: column;
+}
+._myBalance{
+    width: 80%;
+}
+.__dateFinancial{
+    padding-right: 0rem;
+}
+.__typeFinancial{
+    padding-right: 0rem;
+}
+.__cardTitleFinancial{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.__investedExprectation{
+    flex-direction: column;
+}
+.__yieldExpectation {
+    padding-left: 0rem;
+    padding-top: 2.5rem;
+}
+
+.__buttonFinancial button{
+    width: 7.4rem;
+}
+
+.balanceFinancial{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.balanceFinancial img{
+    max-width: 2rem;
+}
+}
+
